@@ -8,5 +8,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/thors-beard/dotfiles/main/
 Remember to download iTerm theme:
 `Profiles -> Colors -> Color Presets...`
 ```
-curl -s https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Snazzy.itermcolors
+curl -s https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Snazzy.itermcolors > ~/Downloads/Snazzy.itermcolors
 ```
