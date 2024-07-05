@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "window.zoomLevel": 1,
+    "vim.leader": ",",
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FiraCode Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace"
+}
