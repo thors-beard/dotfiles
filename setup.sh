@@ -24,6 +24,11 @@ brew install \
     --cask visual-studio-code \
     --cask qlmarkdown
 
+curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
+curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
+curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.ideavimrc
+curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/starship.toml -o ~/.config/starship.toml
+
 curl -s "https://get.sdkman.io" | bash
 
 git clone https://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
