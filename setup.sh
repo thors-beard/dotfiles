@@ -20,9 +20,9 @@ brew install \
     zsh-syntax-highlighting \
     zsh-autosuggestions \
     font-hack-nerd-font \
-    --cask font-fira-code-nerd-font \
-    --cask visual-studio-code \
-    --cask qlmarkdown
+    font-fira-code-nerd-font \
+    visual-studio-code \
+    qlmarkdown
 
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
