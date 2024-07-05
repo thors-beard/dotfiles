@@ -5,6 +5,7 @@
 add_newline = true
 
 format="""
+$time\
 $username\
 $hostname\
 $directory\
@@ -24,3 +25,7 @@ style = "blue"
 
 [git_branch]
 format='[$symbol$branch(:$remote_branch)]($style) '
+
+[time]
+disabled = false
+format = '\[[$time]($style)\] '
