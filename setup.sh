@@ -23,6 +23,8 @@ brew install \
     qlmarkdown \
     nvm
 
+brew install --cask ghostty
+
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.ideavimrc -o ~/.ideavimrc
