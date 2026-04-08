@@ -20,11 +20,12 @@ brew install \
     font-hack-nerd-font \
     font-fira-code-nerd-font \
     visual-studio-code \
-    qlmarkdown
+    qlmarkdown \
+    nvm
 
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
-curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.ideavimrc
+curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.ideavimrc -o ~/.ideavimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/starship.toml -o ~/.config/starship.toml
 
 curl -s "https://get.sdkman.io" | bash
