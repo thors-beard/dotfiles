@@ -23,8 +23,8 @@ brew install \
     qlmarkdown \
     nvm
 
-brew install --cask ghostty \
-    visual-studio-code
+brew install --cask ghostty
+brew install --cask visual-studio-code
 
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
