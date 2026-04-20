@@ -20,11 +20,11 @@ brew install \
     zsh-autosuggestions \
     font-hack-nerd-font \
     font-fira-code-nerd-font \
-    visual-studio-code \
     qlmarkdown \
     nvm
 
-brew install --cask ghostty
+brew install --cask ghostty \
+    visual-studio-code
 
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.vimrc -o ~/.vimrc
 curl -s https://raw.githubusercontent.com/thors-beard/dotfiles/main/.zshrc -o ~/.zshrc
