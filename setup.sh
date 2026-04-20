@@ -14,7 +14,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.
 brew install \
     starship \
     vim \
-    the_silver_searcher \
+    ripgrep \
+    bat \
     zsh-syntax-highlighting \
     zsh-autosuggestions \
     font-hack-nerd-font \
